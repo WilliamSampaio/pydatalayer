@@ -1,0 +1,23 @@
+[tool.poetry]
+authors = ["William Sampaio <56176702+WilliamSampaio@users.noreply.github.com>"]
+description = "A simple data layer for python"
+license = "MIT"
+name = "pydatalayer"
+readme = "README.md"
+version = "0.0.1"
+
+[tool.poetry.dependencies]
+pydantic = "^2.4.2"
+pydantic-settings = "^2.0.3"
+pymysql = "^1.1.0"
+python = "^3.12"
+python-dotenv = "^1.0.0"
+tinydb = "^4.8.0"
+
+[tool.poetry.group.dev.dependencies]
+blue = "^0.9.1"
+isort = "^5.12.0"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]
